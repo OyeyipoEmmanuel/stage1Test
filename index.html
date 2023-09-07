@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="nav" data-aos="fade-down" data-aos-duration="1000">
+        <h1>Stage 1 accessment</h1>
+    </nav>
+    <main>
+        <section class="mainBody" data-aos="fade-in" data-aos-duration="1500">
+            <div class="image">
+                <!-- Image -->    
+                <img src="./DeLeo Tech Slack Profile Image.png" alt="DeLeoTech" data-testid="slackDisplayImage" class="heroImage">
+            </div>
+            <div class="contentDiv">
+                <h1 class="name content" data-testid="slackUserName">Slack Name: DeLeoTech</h1>
+                <h2 class="dayOfWeek content" data-testid="currentDayOfTheWeek"></h1>
+                <h2 class="utcTime content" data-testid="currentUTCTime"></h2>
+                <h3 class="track content" data-testid="myTrack">Track: Frontend</h3>
+            </div>
+        </section>
+        <footer>
+            <div class="github">
+                <i class="lab la-github"></i>
+                <a href="https://github.com/OyeyipoEmmanuel" target="_blank" data-testid="githubURL">Github Link</a>
+            </div>
+        </footer>
+    </main>
+    
+
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
