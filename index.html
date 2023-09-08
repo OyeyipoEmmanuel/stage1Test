@@ -38,10 +38,10 @@
         const date = new Date
 const utcTime = date.getTime()
 const utcTimeElement = document.querySelector('.utcTime');
-utcTimeElement.innerHTML = "UTC Time in milli seconds: " + utcTime;
+utcTimeElement.innerHTML = utcTime;
 const dayVal = date.toLocaleDateString('en-US', { weekday: 'long' });
 const dayOfWeekElement = document.querySelector('.dayOfWeek');
-dayOfWeekElement.innerHTML = "Today is : " + dayVal;
+dayOfWeekElement.innerHTML = dayVal;
 
     </script>
 
