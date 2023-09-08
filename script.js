@@ -1,5 +1,5 @@
 const date = new Date
-const utcTime = date.getUTCMilliseconds()
+const utcTime = date.getTime()
 const utcTimeElement = document.querySelector('.utcTime');
 utcTimeElement.innerHTML = "UTC Time in milli seconds: " + utcTime;
 const dayVal = date.getDay() + 1;
